@@ -82,7 +82,6 @@ sbatch job.slurm
 ```
 
 
-
 ##### Submitting Multi-Core Jobs to the Cluster
 R programs can be written to use multiple cores on a node.  You will need to ensure that both SLURM and your R code know how many cores it will be using.  To submit a multi-core job to Rivanna, we recommend that the SLURM script be set up in the following way:
 
